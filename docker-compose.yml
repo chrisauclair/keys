@@ -1,0 +1,17 @@
+version: '3.7'
+
+services:
+
+  keys:
+    container_name: keys
+    build:
+      context: .
+      dockerfile: docker/Development
+    command: react-scripts start
+    volumes:
+      - '.:/app'
+      - '/app/node_modules'
+    ports:
+      - '3001:3000'
+    environment:
+      - NODE_ENV=development
