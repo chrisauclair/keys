@@ -1,6 +1,9 @@
 # IDEA
 .idea
 
+# Deployments
+build
+
 # Logs
 logs
 *.log
