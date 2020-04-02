@@ -10,7 +10,7 @@ function Key(props) {
 
     return (
         <div className="Key" onClick={handleClick}>
-            {props.note}
+            {props.note}{props.octave}
         </div>
     );
 }
