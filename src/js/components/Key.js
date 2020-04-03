@@ -1,11 +1,12 @@
 import React from 'react';
 import '../../css/Key.css'
+const Synth = window.Synth;
 
 function Key(props) {
 
     function handleClick(e) {
         e.preventDefault();
-        console.log('The key was clicked.');
+        Synth.play('piano', props.note, props.octave, 2);
     }
 
     return (
