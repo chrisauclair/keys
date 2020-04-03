@@ -3,6 +3,10 @@ Virtual keyboard for practicing those scales.
 
 [Try it out.](https://chrisauclair.github.io/keys/)
 
+## Overview
+
+Audio provided by [audiosynth](https://github.com/keithwhor/audiosynth).
+
 ## Available Scripts
 
 In the project directory, you can run:
